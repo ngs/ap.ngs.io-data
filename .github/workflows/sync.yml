@@ -1,0 +1,19 @@
+name: Sync to ActivityPub Server
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'accounts/**'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync from GitHub
+        run: |
+          curl -sf -X POST "https://ap.ngs.io/admin/sync" \
+            -H "Authorization: Bearer ${{ secrets.ADMIN_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{"direction": "from_github"}'
