@@ -4,5 +4,9 @@
   "icon": "avatar.jpg",
   "image": "header.jpg",
   "manuallyApprovesFollowers": false,
-  "discoverable": true
+  "discoverable": true,
+  "fields": [
+    { "name": "Website", "value": "https://ngs.io" },
+    { "name": "GitHub", "value": "https://github.com/ngs" }
+  ]
 }
