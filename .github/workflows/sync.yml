@@ -6,6 +6,7 @@ on:
       - master
     paths:
       - 'accounts/**'
+  workflow_dispatch:
 
 jobs:
   sync:
@@ -17,3 +18,10 @@ jobs:
             -H "Authorization: Bearer ${{ secrets.ADMIN_TOKEN }}" \
             -H "Content-Type: application/json" \
             -d '{"direction": "from_github"}'
+
+      - name: Publish new posts
+        run: |
+          curl -sf -X POST "https://ap.ngs.io/admin/publish" \
+            -H "Authorization: Bearer ${{ secrets.ADMIN_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{}'
