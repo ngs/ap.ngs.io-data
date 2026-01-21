@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "actorUrl": "https://mastodon.cloud/users/ngs",
+    "inboxUrl": "https://mastodon.cloud/users/ngs/inbox",
+    "sharedInboxUrl": "https://mastodon.cloud/inbox",
+    "followedAt": "2026-01-21T18:30:02.110Z"
+  }
+]
