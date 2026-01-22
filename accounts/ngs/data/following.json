@@ -19,5 +19,12 @@
     "accepted": true,
     "requestedAt": "2026-01-22T04:15:41.099Z",
     "acceptedAt": "2026-01-22T05:31:21.738Z"
+  },
+  {
+    "actorUrl": "https://mastodon.social/users/miyagawa",
+    "inboxUrl": "https://mastodon.social/users/miyagawa/inbox",
+    "accepted": false,
+    "requestedAt": "2026-01-22T06:35:08.699Z",
+    "acceptedAt": null
   }
 ]
