@@ -12,5 +12,12 @@
     "accepted": true,
     "requestedAt": "2026-01-21T21:17:19.577Z",
     "acceptedAt": "2026-01-21T21:17:30.682Z"
+  },
+  {
+    "actorUrl": "https://universeodon.com/users/georgetakei",
+    "inboxUrl": "https://universeodon.com/users/georgetakei/inbox",
+    "accepted": true,
+    "requestedAt": "2026-01-22T04:15:41.099Z",
+    "acceptedAt": "2026-01-22T04:15:41.921Z"
   }
 ]
