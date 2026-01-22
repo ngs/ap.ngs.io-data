@@ -23,8 +23,8 @@
   {
     "actorUrl": "https://mastodon.social/users/miyagawa",
     "inboxUrl": "https://mastodon.social/users/miyagawa/inbox",
-    "accepted": false,
+    "accepted": true,
     "requestedAt": "2026-01-22T06:35:08.699Z",
-    "acceptedAt": null
+    "acceptedAt": "2026-01-22T06:35:10.631Z"
   }
 ]
