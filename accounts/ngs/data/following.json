@@ -26,5 +26,12 @@
     "accepted": true,
     "requestedAt": "2026-01-22T06:35:08.699Z",
     "acceptedAt": "2026-01-22T06:35:10.631Z"
+  },
+  {
+    "actorUrl": "https://mas.to/users/yusukebe",
+    "inboxUrl": "https://mas.to/users/yusukebe/inbox",
+    "accepted": true,
+    "requestedAt": "2026-01-22T10:04:55.977Z",
+    "acceptedAt": "2026-01-22T10:05:10.968Z"
   }
 ]
