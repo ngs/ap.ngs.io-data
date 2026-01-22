@@ -44,8 +44,8 @@
   {
     "actorUrl": "https://mastodon.cloud/users/fuba",
     "inboxUrl": "https://mastodon.cloud/users/fuba/inbox",
-    "accepted": false,
+    "accepted": true,
     "requestedAt": "2026-01-22T10:09:02.022Z",
-    "acceptedAt": null
+    "acceptedAt": "2026-01-22T10:09:04.790Z"
   }
 ]
