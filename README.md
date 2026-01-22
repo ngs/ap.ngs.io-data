@@ -83,12 +83,25 @@ Use #hashtag for hashtags, ![alt](image.jpg) for images.
 
 Links in `fields` will be displayed as verified on Mastodon if the linked page contains a `rel="me"` link back to this profile.
 
-## Automatic Deployment
+## GitHub Actions Workflows
+
+### Sync (automatic)
 
 On push to `master` branch, GitHub Actions automatically:
 
 1. Syncs with the server's D1 database
 2. Publishes new posts to followers
+
+### Follow / Unfollow (manual)
+
+Use the "Follow / Unfollow" workflow via workflow_dispatch:
+
+1. Go to Actions → "Follow / Unfollow"
+2. Click "Run workflow"
+3. Select action (`follow` or `unfollow`)
+4. Enter account handle (e.g., `ngs`)
+5. Enter target user (e.g., `user@mastodon.social`)
+6. Click "Run workflow"
 
 ## Related Repository
 
