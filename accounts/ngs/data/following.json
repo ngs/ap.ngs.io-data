@@ -33,5 +33,12 @@
     "accepted": true,
     "requestedAt": "2026-01-22T10:04:55.977Z",
     "acceptedAt": "2026-01-22T10:05:10.968Z"
+  },
+  {
+    "actorUrl": "https://mas.to/users/nagayama",
+    "inboxUrl": "https://mas.to/users/nagayama/inbox",
+    "accepted": true,
+    "requestedAt": "2026-01-22T10:07:33.398Z",
+    "acceptedAt": "2026-01-22T10:07:34.256Z"
   }
 ]
