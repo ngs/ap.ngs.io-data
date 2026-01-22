@@ -1,16 +1,1 @@
-[
-  {
-    "actorUrl": "https://mastodon.cloud/users/ngs",
-    "inboxUrl": "https://mastodon.cloud/users/ngs/inbox",
-    "accepted": true,
-    "requestedAt": "2026-01-21T18:19:15.667Z",
-    "acceptedAt": "2026-01-21T18:19:25.970Z"
-  },
-  {
-    "actorUrl": "https://mastodon.social/users/jed",
-    "inboxUrl": "https://mastodon.social/users/jed/inbox",
-    "accepted": true,
-    "requestedAt": "2026-01-21T21:17:19.577Z",
-    "acceptedAt": "2026-01-21T21:17:30.682Z"
-  }
-]
+[]
