@@ -29,5 +29,5 @@ jobs:
           curl -sf -X POST "https://ap.ngs.io/admin/${{ inputs.action }}" \
             -H "Authorization: Bearer ${{ secrets.ADMIN_TOKEN }}" \
             -H "Content-Type: application/json" \
-            -d '{"account": "${{ inputs.account }}", "target": "${{ inputs.target }}"}'
+            -d '{"handle": "${{ inputs.account }}", "target": "${{ inputs.target }}"}'
           echo "Successfully executed ${{ inputs.action }} for @${{ inputs.target }}"
