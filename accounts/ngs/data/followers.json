@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "actorUrl": "https://mastodon.cloud/users/fuba",
+    "inboxUrl": "https://mastodon.cloud/users/fuba/inbox",
+    "sharedInboxUrl": "https://mastodon.cloud/inbox",
+    "followedAt": "2026-01-27T00:50:34.873Z"
+  }
+]
